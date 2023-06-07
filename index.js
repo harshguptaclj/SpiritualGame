@@ -79,11 +79,11 @@ var ignorance=(i1+i2+i3+i4+i5+i6+i7+i8+i9+i10+i11+i12+i13+i14+i15+i16+i17+i18)/1
 alert("Your Goodness % is "+(goodness*10) + "\nYour Passion % is "+(passion*10) + "\nYour Ignorance % is "+(ignorance*10) + "\nClick OK to know more!");
 if(goodness>passion && goodness>ignorance)
 {
-    alert("Dear "+names+" as your goodness level is "+(goodness*10)+" %, which is highest, it shows you are a spiritual person.\n Try to decrease the % of ignorance ("+(ignorance*10)+"%) and passion ("+  (passion*10)+") by increasing your spiritual activities.\nHare Krishna!");
+    alert("Dear "+names+" as your goodness level is "+(goodness*10)+" %, which is highest, it shows you are a spiritual person.\n Try to decrease the % of ignorance ("+(ignorance*10)+") and passion ("+  (passion*10)+") by increasing your spiritual activities.\nHare Krishna!");
 }
 else if(passion>goodness && passion>ignorance)
 {
-    alert("Dear "+names+" as your passion level is "+(passion*10)+" %, which is highest, it shows you are a passionate person.\n Try to increase the % of goodness (" +(goodness*10) + "%) and decrease the % of ignorance ("+(ignorance*10)+"%) by doing some spiritual activities.\nHare Krishna!");
+    alert("Dear "+names+" as your passion level is "+(passion*10)+" %, which is highest, it shows you are a passionate person.\n Try to increase the % of goodness (" +(goodness*10) + ") and decrease the % of ignorance ("+(ignorance*10)+") by doing some spiritual activities.\nHare Krishna!");
 }
 else if(ignorance>passion && ignorance>goodness)
 {
